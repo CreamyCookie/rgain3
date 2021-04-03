@@ -144,8 +144,8 @@ behaviour. Possible choices with this switch are:
 *replaygain.org* (alias: *fb2k*)
   Replay Gain information is stored in ID3v2 TXXX frames. This format is
   specified on the replaygain.org website as the recommended format for MP3
-  files. Notably, this format is also used by the [foobar2000 music player for
-  Windows][4].
+   files. Notably, this format is used by music players like foobar2000 [3]
+   and Quod Libet [4]. The latter can also fall back on the legacy format.
 *legacy* (alias: *ql*)
   Replay Gain information is stored in ID3v2.4 RVA2 frames. This format is
   described as "legacy" by replaygain.org; however, it is still the primary
@@ -208,4 +208,4 @@ The manpages were originally written for the Debian project and are::
 [2]: http://mp3gain.sourceforce.net
 [3]: http://wiki.hydrogenaudio.org/index.php?title=ReplayGain_specification#ID3v2
 [4]: http://foobar2000.org
-[5]: http://code.google.com/p/quodlibet
+[5]: https://github.com/quodlibet/quodlibet/
